@@ -94,7 +94,7 @@ variable "is_location_exist" {
 variable "managed_from" {
   description = "The IBM Cloud region to manage your Satellite location from. Choose a region close to your on-prem data center for better performance."
   type        = string
-  default     = "wdc04"
+  default     = "wdc"
 }
 
 variable "location_zones" {
